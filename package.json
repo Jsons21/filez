@@ -15,7 +15,9 @@
     "db:reset": "npm run db:schema && npm run db:seed"
   },
   "dependencies": {
+    "@faker-js/faker": "^10.0.0",
     "express": "^5.1.0",
+    "faker": "^5.5.3",
     "pg": "^8.14.1"
   },
   "devDependencies": {
